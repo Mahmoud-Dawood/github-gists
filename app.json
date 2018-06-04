@@ -1,0 +1,12 @@
+{
+  "name": "github-gists",
+  "description": "github-gists",
+  "website": "",
+  "repository": "",
+  "logo": "",
+  "keywords": ["node", "express", "static", "angular"],
+  "success_url": "/",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}

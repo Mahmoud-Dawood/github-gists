@@ -1,0 +1,14 @@
+<div class="container">
+  <h1>Gists</h1>
+  <form class='form-inline' ng-submit='search(q)'>
+    <div class="form-group">
+      <input class='form-control' type="search" ng-model='q'>
+    </div>
+    <input type="submit" class='btn btn-primary' value='Search'>
+  </form>
+  <ul class='gists'>
+    <li ng-repeat="gist in gists">
+      <a href="{{gist.url}}">{{gist.url}} <img ng-src="{{gists.avatar_url}}"></a>
+    </li>
+  </ul>
+</div>
