@@ -1,0 +1,6 @@
+{
+  "app.css": "app.css",
+  "app.js": "app.js",
+  "angular/angular.min.js": "angular.min.js",
+  "angular-route/angular-route.min.js": "angular-route.min.js"
+}
